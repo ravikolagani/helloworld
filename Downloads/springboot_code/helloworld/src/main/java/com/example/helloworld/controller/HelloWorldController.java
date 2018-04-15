@@ -18,6 +18,7 @@ public class HelloWorldController {
 
     @RequestMapping("/gethello")
     public DataObject getData(){
+        System.out.println("Hello..!");
         return dataObject;
     }
 }
